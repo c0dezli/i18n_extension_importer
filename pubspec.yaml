@@ -1,6 +1,6 @@
 name: i18n_extension_importer
 description: Text Importer for i18n_extension
-version: 0.0.3
+version: 0.0.4
 repository: https://github.com/c0dezli/i18n_extension_importer
 
 environment:
