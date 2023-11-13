@@ -6,19 +6,19 @@ import 'i18n_getstrings.dart';
 import 'io/export.dart';
 
 void main(List<String> arguments) async {
-  const outputFile = "output-file";
-  const sourceDir = "source-dir";
+  const outputFileOption = "output-file";
+  const sourceDirOption = "source-dir";
 
   var parser = ArgParser()
-    ..addOption(outputFile,
+    ..addOption(outputFileOption,
         abbr: "f",
         defaultsTo: "strings.pot",
         valueHelp: "Supported formats: ${exporters.keys.join(", ")}")
-    ..addOption(sourceDir, abbr: "s", defaultsTo: "./lib");
+    ..addOption(sourceDirOption, abbr: "s", defaultsTo: "./lib");
 
   ArgResults results = parser.parse(arguments);
 
-  String outputFilename = results[outputFile];
+  String outputFilename = results[outputFileOption];
   var fileFormat = outputFilename.split(".").last;
   if (!exporters.containsKey(fileFormat)) {
     print("Unable to write to $outputFilename.");
@@ -26,7 +26,7 @@ void main(List<String> arguments) async {
     exit(1);
   }
 
-  String? sourceDir = results[sourceDir];
+  String? sourceDir = results[sourceDirOption];
   List<ExtractedString> strings = GetI18nStrings(sourceDir).run();
 
   var outputFile = File(outputFilename);

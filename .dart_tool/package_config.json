@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-65.0.0",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-61.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.17"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/analyzer-6.3.0",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/analyzer-5.13.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.19"
     },
     {
       "name": "args",
@@ -32,8 +32,20 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "characters",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/characters-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "clock",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "collection",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/collection-1.18.0",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/collection-1.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -45,9 +57,9 @@
     },
     {
       "name": "coverage",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/coverage-1.7.1",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/coverage-1.6.4",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "crypto",
@@ -56,8 +68,32 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "equatable",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/equatable-2.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "fake_async",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "file",
       "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/file-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter",
+      "rootUri": "file:///Users/c0dez/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
+      "name": "flutter_test",
+      "rootUri": "file:///Users/c0dez/flutter/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -122,8 +158,14 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "material_color_utilities",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "meta",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/meta-1.11.0",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/meta-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -188,6 +230,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "sky_engine",
+      "rootUri": "file:///Users/c0dez/flutter/bin/cache/pkg/sky_engine",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "source_map_stack_trace",
       "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/source_map_stack_trace-2.1.1",
       "packageUri": "lib/",
@@ -207,15 +255,15 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/stack_trace-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/stream_channel-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "2.14"
     },
     {
       "name": "string_scanner",
@@ -231,21 +279,21 @@
     },
     {
       "name": "test",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test-1.24.9",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test-1.24.3",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test_api-0.6.1",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test_api-0.6.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "test_core",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test_core-0.5.9",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/test_core-0.5.3",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.18"
     },
     {
       "name": "typed_data",
@@ -254,16 +302,28 @@
       "languageVersion": "2.17"
     },
     {
-      "name": "vm_service",
-      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
+      "name": "vector_math",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "vm_service",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/vm_service-11.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.19"
     },
     {
       "name": "watcher",
       "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/watcher-1.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/c0dez/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
     },
     {
       "name": "web_socket_channel",
@@ -290,7 +350,7 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2023-11-13T17:37:22.000411Z",
+  "generated": "2023-11-13T17:54:16.612818Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
