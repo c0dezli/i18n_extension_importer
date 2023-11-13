@@ -1,0 +1,16 @@
+name: i18n_extension_importer
+description: Text Importer for i18n_extension
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.5
+
+# Add regular dependencies here.
+dependencies:
+  analyzer: ^5.3.1
+  gettext_parser: ^0.2.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
