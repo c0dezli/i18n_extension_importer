@@ -1,7 +1,8 @@
 import 'dart:io';
 
 import 'package:args/args.dart';
-import 'package:i18n_extension_importer/i18n_extension_importer.dart';
+import 'package:i18n_extension_importer/src/i18n_getstrings.dart';
+import 'package:i18n_extension_importer/src/io/export.dart';
 
 void main(List<String> arguments) async {
   const outputFileOption = "output-file";

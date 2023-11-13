@@ -1,5 +1,6 @@
-import 'package:flutter_test/flutter_test.dart';
-import 'package:i18n_extension_importer/i18n_extension_importer.dart';
+import 'package:test/test.dart';
+import 'package:i18n_extension_importer/src/i18n_getstrings.dart';
+import 'package:i18n_extension_importer/src/io/export.dart';
 
 void main() {
   test("Simple case", () {

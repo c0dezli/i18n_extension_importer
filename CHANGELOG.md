@@ -1,4 +1,4 @@
-## 0.0.5
+## 0.0.6
 
 - Fix `dart run i18n_extension_importer:getstrings`
 
