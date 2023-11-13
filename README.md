@@ -1,3 +1,7 @@
+# i18n_extension_importer
+
+This is the standalone repo for importer library created by <a href="https://github.com/bauerj">Johann Bauer</a> for [<a href="https://github.com/bauerj">[i18n_extension](https://pub.dev/packages/i18n_extension)
+
 #### Importing
 
 Currently, only `.PO` and `.JSON` importers are supported out-of-the-box.
