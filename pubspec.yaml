@@ -4,8 +4,8 @@ version: 0.0.1
 repository: https://github.com/c0dezli/i18n_extension_importer
 
 environment:
-  sdk: ^3.1.5
-
+  sdk: '>=2.19.0 <4.0.0'
+  
 # Add regular dependencies here.
 dependencies:
   flutter:
