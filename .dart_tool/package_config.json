@@ -347,10 +347,10 @@
       "name": "i18n_extension_importer",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-13T18:12:07.249531Z",
+  "generated": "2023-11-13T18:17:42.793193Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }
