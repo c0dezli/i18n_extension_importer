@@ -1,10 +1,10 @@
 name: i18n_extension_importer
 description: Text Importer for i18n_extension
-version: 0.0.4
+version: 0.0.5
 repository: https://github.com/c0dezli/i18n_extension_importer
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 # Add regular dependencies here.
 dependencies:
