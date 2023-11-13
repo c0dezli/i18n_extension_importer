@@ -25,8 +25,8 @@ void main() {
       print("\""This is a
 "test" "\"".i18n);
       print(""\"This should not match"\"");
-      print('\''This is another test'\''.i18n);
-      print('\''This should not match'\'');
+      print('''This is another test'''.i18n);
+      print('''This should not match''');
     }
     """;
     var results = GetI18nStrings("").processString(source);

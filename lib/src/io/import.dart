@@ -77,17 +77,15 @@ class GettextImporter extends Importer {
             }
           } else {
             String? msgid = translation["msgid"];
-            if (msgid != null && msgid.isNotEmpty)
-              out[msgid] = _splitter1 +
+            if (msgid != null && msgid.isNotEmpty) {
+              out[msgid] = '${_splitter1 +
                   translation["msgstr"][0] +
                   _splitter1 +
                   '1' +
                   _splitter2 +
-                  translation["msgstr"][0] +
-                  _splitter1 +
-                  'M' +
-                  _splitter2 +
+                  translation["msgstr"][0]}${_splitter1}M$_splitter2' +
                   translation["msgstr"][1];
+            }
           }
         }
       }

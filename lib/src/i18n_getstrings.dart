@@ -15,7 +15,7 @@ class I18nSuffixes {
   static const String version = 'version';
   static const String allVersions = 'allVersions';
 
-  static const List<String> allSuffixes = const [
+  static const List<String> allSuffixes = [
     i18n,
     fill,
     plural,
